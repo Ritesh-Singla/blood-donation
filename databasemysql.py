@@ -19,8 +19,8 @@ now= datetime.datetime.now()
 
 conn= mysql.connector.connect(
 		host="localhost",
-		user="root",
-		passwd="ratsi@123",
+		user="username",
+		passwd="password",
 		database="blood")
 
 c=conn.cursor()
@@ -209,8 +209,8 @@ def submit(e):
 		try:
 			conn= mysql.connector.connect(
 			host="localhost",
-			user="root",
-			passwd="ratsi@123",
+			user="username",
+			passwd="password",
 			database="blood"
 
 			)
@@ -244,8 +244,8 @@ def show(e):
 		
 		conn= mysql.connector.connect(
 			host="localhost",
-			user="root",
-			passwd="ratsi@123",
+			user="username",
+			passwd="password",
 			database="blood"
 
 			)
@@ -351,8 +351,8 @@ def delete(e):
 		try:
 			conn= mysql.connector.connect(
 			host="localhost",
-			user="root",
-			passwd="ratsi@123",
+			user="username",
+			passwd="password",
 			database="blood"
 
 			)
@@ -371,8 +371,8 @@ def delete(e):
 			else:
 				conn= mysql.connector.connect(
 				host="localhost",
-				user="root",
-				passwd="ratsi@123",
+				user="username",
+				passwd="password",
 				database="blood"
 
 				)
@@ -403,8 +403,8 @@ def update(e):
 
 			conn= mysql.connector.connect(
 					host="localhost",
-					user="root",
-					passwd="ratsi@123",
+					user="username",
+					passwd="password",
 					database="blood")
 
 			c=conn.cursor()
@@ -490,8 +490,8 @@ def edit(e):
 
 			conn= mysql.connector.connect(
 			host="localhost",
-			user="root",
-			passwd="ratsi@123",
+			user="username",
+			passwd="password",
 			database="blood"
 
 			)	
@@ -530,8 +530,8 @@ def search(e):
 	else:
 		conn= mysql.connector.connect(
 			host="localhost",
-			user="root",
-			passwd="ratsi@123",
+			user="username",
+			passwd="password",
 			database="blood")
 
 		c= conn.cursor()
